@@ -1,8 +1,8 @@
-== README
+# README
 
-rails new app_name
-bundle install
-bundle update
+- rails new app_name
+- bundle install
+- bundle update
 
-rails g scaffold User name:string email:string
-bundle exec rake db:migrate
+- rails g scaffold User name:string email:string
+- bundle exec rake db:migrate
