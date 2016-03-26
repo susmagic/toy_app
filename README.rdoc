@@ -1,8 +1,11 @@
-# README
+== README
 
 - rails new app_name
 - bundle install
 - bundle update
 
 - rails g scaffold User name:string email:string
+- bundle exec rake db:migrate
+
+- rails g scaffold Micropost content:text user_id:integer
 - bundle exec rake db:migrate
